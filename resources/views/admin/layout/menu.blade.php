@@ -106,8 +106,8 @@
                             <a href="admin/user/danhsach"><i class="fa fa-users fa-fw"></i> User<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    {{-- {{ route('users.index') }} --}}
-                                    <a href="">Danh sách</a>
+                                    {{--  --}}
+                                    <a href="{{ route('users.index') }}">Danh sách</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->

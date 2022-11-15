@@ -4,6 +4,15 @@ use Illuminate\Support\Facades\Route;
 use Illuminate\Support\Facades\Auth;
 
 use App\Http\Controllers\HomeController;
+use App\Http\Controllers\UserController;
+use App\Http\Controllers\TinhController;
+use App\Http\Controllers\LoaiTourController;
+use App\Http\Controllers\DiaDiemController;
+use App\Http\Controllers\TourController;
+use App\Http\Controllers\ChiTietTourController;
+use App\Http\Controllers\PageController;
+use App\Http\Controllers\ChuongTrinhTouControllerr;
+use App\Http\Controllers\PhieuDatController;
 
 /*
 |--------------------------------------------------------------------------
