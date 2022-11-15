@@ -18,12 +18,12 @@
                             <a href=""><i class="fa fa-bookmark fa-fw"></i> Loại tour<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    {{-- {{ route('loaitour.index') }} --}}
-                                    <a href="">Danh sách</a>
+                                    {{--  --}}
+                                    <a href="{{ route('loaitour.index') }}">Danh sách</a>
                                 </li>
                                 <li>
-                                    {{-- {{ route('loaitour.add') }} --}}
-                                    <a href="">Thêm</a>
+                                    {{-- --}}
+                                    <a href="{{ route('loaitour.add') }} ">Thêm</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -33,12 +33,12 @@
                             <a href=""><i class="fa fa-calendar fa-fw"></i> Chương trình tour<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    {{-- {{ route('chuongtrinhtour.index') }} --}}
-                                    <a href="">Danh sách</a>
+                                    {{--  --}}
+                                    <a href="{{ route('chuongtrinhtour.index') }}">Danh sách</a>
                                 </li>
                                 <li>
-                                    {{-- {{ route('chuongtrinhtour.add') }} --}}
-                                    <a href="">Thêm</a>
+                                    {{--  --}}
+                                    <a href="{{ route('chuongtrinhtour.add') }}">Thêm</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -48,12 +48,12 @@
                             <a href=""><i class="fa fa-book fa-fw"></i> Chi tiết tour<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    {{-- {{ route('chitiettour.index') }} --}}
-                                    <a href="">Danh sách</a>
+                                    {{--  --}}
+                                    <a href="{{ route('chitiettour.index') }}">Danh sách</a>
                                 </li>
                                 <li>
-                                    {{-- {{ route('chitiettour.add') }} --}}
-                                    <a href="">Thêm</a>
+                                    {{-- --}}
+                                    <a href="{{ route('chitiettour.add') }} ">Thêm</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -63,12 +63,12 @@
                             <a href=""><i class="fa fa-plane fa-fw"></i> Tour<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    {{-- {{ route('tour.index') }} --}}
-                                    <a href="">Danh sách</a>
+                                    {{--  --}}
+                                    <a href="{{ route('tour.index') }}">Danh sách</a>
                                 </li>
                                 <li>
-                                    {{-- {{ route('tour.add') }} --}}
-                                    <a href="">Thêm</a>
+                                    {{--  --}}
+                                    <a href="{{ route('tour.add') }}">Thêm</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
@@ -77,12 +77,12 @@
                             <a href=""><i class="fa fa-map-marker fa-fw"></i> Địa Điểm<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    {{-- {{ route('diadiem.index') }} --}}
-                                    <a href="">Danh sách</a>
+                                    {{--  --}}
+                                    <a href="{{ route('diadiem.index') }}">Danh sách</a>
                                 </li>
                                 <li>
-                                    {{-- {{ route('diadiem.add') }} --}}
-                                    <a href="">Thêm</a>
+                                    {{--  --}}
+                                    <a href="{{ route('diadiem.add') }}">Thêm</a>
                                 </li>
                                 
                             </ul>
@@ -92,12 +92,12 @@
                             <a href="#"><i class="fa fa-globe fa-fw"></i> Tỉnh<span class="fa arrow"></span></a>
                             <ul class="nav nav-second-level">
                                 <li>
-                                    {{-- {{ route('tinh.index') }} --}}
-                                    <a href="">Danh sách</a>
+                                    {{-- --}}
+                                    <a href="{{ route('tinh.index') }} ">Danh sách</a>
                                 </li>
                                 <li>
-                                    {{-- {{ route('tinh.add') }} --}}
-                                    <a href="">Thêm</a>
+                                    {{--  --}}
+                                    <a href="{{ route('tinh.add') }}">Thêm</a>
                                 </li>
                             </ul>
                             <!-- /.nav-second-level -->
