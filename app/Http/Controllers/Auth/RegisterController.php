@@ -44,16 +44,38 @@ class RegisterController extends Controller
     /**
      * Get a validator for an incoming registration request.
      *
-     * @param  array  $data
+     * @param  array  $dataP
      * @return \Illuminate\Contracts\Validation\Validator
      */
     protected function validator(array $data)
     {
         return Validator::make($data, [
-            'name' => ['required', 'string', 'max:255'],
+            'hoten' => ['required', 'string', 'max:255'],
             'email' => ['required', 'string', 'email', 'max:255', 'unique:users'],
-            'password' => ['required', 'string', 'min:8', 'confirmed'],
-        ]);
+            'password' => ['required', 'string', 'min:6', 'confirmed'],
+            'dienthoai' => ['required', 'string', 'max:15'],
+            'diachi' => ['required', 'string', 'max:255'],
+            'cmnd' => ['required', 'string', 'max:15'],
+            'gender' => ['required'],
+        ],	
+        [
+			'hoten.required' => 'Họ và tên là trường bắt buộc',
+			'hoten.max' => 'Họ và tên không quá 255 ký tự',
+			'email.required' => 'Email là trường bắt buộc',
+			'email.email' => 'Email không đúng định dạng',
+			'email.max' => 'Email không quá 255 ký tự',
+			'email.unique' => 'Email đã tồn tại',
+			'password.required' => 'Mật khẩu là trường bắt buộc',
+			'password.min' => 'Mật khẩu phải chứa ít nhất 6 ký tự',
+			'password.confirmed' => 'Xác nhận mật khẩu không đúng',
+			'dienthoai.max' => 'Số Điện thoại không quá  15 ký tự',
+			'dienthoai.required' => 'Số Điện thoại là trường bắt buộc',
+			'diachi.required' => 'Địa chỉ là trường bắt buộc',
+			'diachi.max' => 'Địa chỉ không quá 255 ký tự',
+			'cmnd.max' => 'Số Điện thoại không quá  15 ký tự',
+			'cmnd.required' => 'CMND/CCCD là trường bắt buộc',
+			'gender.required' => 'Gioi tính là trường bắt buộc',
+		]);
     }
 
     /**
@@ -65,8 +87,13 @@ class RegisterController extends Controller
     protected function create(array $data)
     {
         return User::create([
-            'name' => $data['name'],
+            'hoten' => $data['hoten'],
             'email' => $data['email'],
+            'dienthoai' => $data['dienthoai'],
+            'diachi' => $data['diachi'],
+            'cmnd' => $data['cmnd'],
+            'gender' => $data['gender'],
+            'level' => 1,
             'password' => Hash::make($data['password']),
         ]);
     }
