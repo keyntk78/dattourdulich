@@ -11,12 +11,12 @@
                     <div class="row h-100">
                         <div class="col-lg-12">
                             <div class="breadcrumb-item">
-                                <h2 class="breadcrumb-heading">Shop Layout</h2>
+                                <h2 class="breadcrumb-heading">Danh sách loại tour</h2>
                                 <ul>
                                     <li>
-                                        <a href="index.html">Home <i class="pe-7s-angle-right"></i></a>
+                                        <a href="index.html">Trang chủ <i class="pe-7s-angle-right"></i></a>
                                     </li>
-                                    <li>Shop List Fullwidth</li>
+                                    <li>Danh sách tour</li>
                                 </ul>
                             </div>
                         </div>

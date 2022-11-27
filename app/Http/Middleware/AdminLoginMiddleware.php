@@ -27,7 +27,6 @@ class AdminLoginMiddleware
                 return redirect('/logout');
         } else {
             return redirect('/logout');
-
         }
     }
 }
